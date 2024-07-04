@@ -4,6 +4,7 @@ import { gradToRad } from '../../helpers/modelOrientation';
 const cabinetModelPath = 'assets/models/cabinet/painted_wooden_cabinet_02_2k.fbx';
 const mountModelPath = 'assets/models/mount/mountainside_1k.fbx';
 
+
 export default class FBXModelLoader {
 
     constructor() {
@@ -31,4 +32,6 @@ export default class FBXModelLoader {
           }, undefined, reject);
         });
       }
+
+     
 }
